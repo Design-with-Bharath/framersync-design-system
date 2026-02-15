@@ -1,0 +1,35 @@
+{
+    "source": [
+        "tokens/global.json",
+        "tokens/dark.json"
+    ],
+    "platforms": {
+        "css": {
+            "transformGroup": "css",
+            "buildPath": "build/css/",
+            "files": [
+                {
+                    "destination": "variables-dark.css",
+                    "format": "css/variables",
+                    "options": {
+                        "outputReferences": true,
+                        "selector": "[data-theme='dark']"
+                    }
+                }
+            ]
+        },
+        "scss": {
+            "transformGroup": "scss",
+            "buildPath": "build/scss/",
+            "files": [
+                {
+                    "destination": "_variables-dark.scss",
+                    "format": "scss/variables",
+                    "options": {
+                        "outputReferences": true
+                    }
+                }
+            ]
+        }
+    }
+}

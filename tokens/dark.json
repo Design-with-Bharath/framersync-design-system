@@ -1,0 +1,69 @@
+{
+    "semantic": {
+        "bg": {
+            "default": {
+                "value": "{color.slate.950}"
+            },
+            "surface": {
+                "value": "{color.slate.900}"
+            },
+            "overlay": {
+                "value": "rgba(255, 255, 255, 0.1)"
+            },
+            "primary": {
+                "value": "{color.sky.600}"
+            },
+            "primaryHover": {
+                "value": "{color.sky.500}"
+            },
+            "subtle": {
+                "value": "{color.slate.800}"
+            }
+        },
+        "text": {
+            "default": {
+                "value": "{color.slate.50}"
+            },
+            "secondary": {
+                "value": "{color.slate.400}"
+            },
+            "primary": {
+                "value": "{color.sky.400}"
+            },
+            "onPrimary": {
+                "value": "{color.white}"
+            },
+            "disabled": {
+                "value": "{color.slate.600}"
+            }
+        },
+        "border": {
+            "default": {
+                "value": "{color.slate.800}"
+            },
+            "active": {
+                "value": "{color.sky.500}"
+            }
+        },
+        "status": {
+            "success": {
+                "value": "{color.emerald.400}"
+            },
+            "bgSuccess": {
+                "value": "rgba(16, 185, 129, 0.1)"
+            },
+            "error": {
+                "value": "{color.rose.500}"
+            },
+            "bgError": {
+                "value": "rgba(244, 63, 94, 0.1)"
+            },
+            "warning": {
+                "value": "{color.amber.400}"
+            },
+            "bgWarning": {
+                "value": "rgba(245, 158, 11, 0.1)"
+            }
+        }
+    }
+}

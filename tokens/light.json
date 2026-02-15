@@ -1,0 +1,69 @@
+{
+    "semantic": {
+        "bg": {
+            "default": {
+                "value": "{color.slate.50}"
+            },
+            "surface": {
+                "value": "{color.white}"
+            },
+            "overlay": {
+                "value": "rgba(0, 0, 0, 0.5)"
+            },
+            "primary": {
+                "value": "{color.sky.500}"
+            },
+            "primaryHover": {
+                "value": "{color.sky.600}"
+            },
+            "subtle": {
+                "value": "{color.slate.100}"
+            }
+        },
+        "text": {
+            "default": {
+                "value": "{color.slate.900}"
+            },
+            "secondary": {
+                "value": "{color.slate.500}"
+            },
+            "primary": {
+                "value": "{color.sky.600}"
+            },
+            "onPrimary": {
+                "value": "{color.white}"
+            },
+            "disabled": {
+                "value": "{color.slate.400}"
+            }
+        },
+        "border": {
+            "default": {
+                "value": "{color.slate.200}"
+            },
+            "active": {
+                "value": "{color.sky.500}"
+            }
+        },
+        "status": {
+            "success": {
+                "value": "{color.emerald.500}"
+            },
+            "bgSuccess": {
+                "value": "{color.emerald.50}"
+            },
+            "error": {
+                "value": "{color.rose.500}"
+            },
+            "bgError": {
+                "value": "{color.rose.50}"
+            },
+            "warning": {
+                "value": "{color.amber.500}"
+            },
+            "bgWarning": {
+                "value": "{color.amber.50}"
+            }
+        }
+    }
+}
