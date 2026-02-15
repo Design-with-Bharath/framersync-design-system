@@ -1,69 +1,41 @@
 {
     "semantic": {
         "bg": {
-            "default": {
-                "value": "{color.slate.50}"
-            },
-            "surface": {
-                "value": "{color.white}"
-            },
-            "overlay": {
-                "value": "rgba(0, 0, 0, 0.5)"
-            },
-            "primary": {
-                "value": "{color.sky.500}"
-            },
-            "primaryHover": {
-                "value": "{color.sky.600}"
-            },
-            "subtle": {
-                "value": "{color.slate.100}"
-            }
+            "primary": { "value": "#FFFFFF" },
+            "secondary": { "value": "#F7F7F7" },
+            "tertiary": { "value": "#EFEFEF" },
+            "elevated": { "value": "#FFFFFF" },
+            "card": { "value": "#FFFFFF" },
+            "cardSecondary": { "value": "#F7F7F7" },
+            "input": { "value": "#FFFFFF" },
+            "hoverOverlay": { "value": "#0000000A" },
+            "pressedOverlay": { "value": "#00000014" }
         },
         "text": {
-            "default": {
-                "value": "{color.slate.900}"
-            },
-            "secondary": {
-                "value": "{color.slate.500}"
-            },
-            "primary": {
-                "value": "{color.sky.600}"
-            },
-            "onPrimary": {
-                "value": "{color.white}"
-            },
-            "disabled": {
-                "value": "{color.slate.400}"
-            }
+            "primary": { "value": "{color.black.100}" },
+            "secondary": { "value": "{color.black.80}" },
+            "tertiary": { "value": "{color.black.60}" },
+            "quaternary": { "value": "{color.black.40}" },
+            "onColor": { "value": "{color.white.100}" },
+            "onColorSecondary": { "value": "{color.white.80}" },
+            "placeholder": { "value": "{color.black.40}" }
         },
         "border": {
-            "default": {
-                "value": "{color.slate.200}"
-            },
-            "active": {
-                "value": "{color.sky.500}"
-            }
+            "light": { "value": "{color.black.10}" },
+            "default": { "value": "#00000020" },
+            "strong": { "value": "{color.black.20}" },
+            "input": { "value": "#00000020" },
+            "inputFocus": { "value": "{color.black.100}" }
         },
         "status": {
-            "success": {
-                "value": "{color.emerald.500}"
-            },
-            "bgSuccess": {
-                "value": "{color.emerald.50}"
-            },
-            "error": {
-                "value": "{color.rose.500}"
-            },
-            "bgError": {
-                "value": "{color.rose.50}"
-            },
-            "warning": {
-                "value": "{color.amber.500}"
-            },
-            "bgWarning": {
-                "value": "{color.amber.50}"
-            }
+            "error": { "value": "{color.semantic.error}" },
+            "warning": { "value": "{color.semantic.warning}" },
+            "success": { "value": "{color.semantic.success}" },
+            "info": { "value": "{color.semantic.info}" }
+        },
+        "gradient": {
+            "primary": { "value": "linear-gradient(135deg, {color.orange.start} 0%, {color.orange.end} 100%)" },
+            "primaryLight": { "value": "linear-gradient(135deg, {color.orange.lightStart} 0%, {color.orange.lightEnd} 100%)" }
         }
     }
 }

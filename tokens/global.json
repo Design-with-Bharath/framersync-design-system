@@ -1,165 +1,68 @@
 {
     "color": {
-        "sky": {
-            "50": {
-                "value": "#f0f9ff"
-            },
-            "100": {
-                "value": "#e0f2fe"
-            },
-            "400": {
-                "value": "#38bdf8"
-            },
-            "500": {
-                "value": "#0ea5e9"
-            },
-            "600": {
-                "value": "#0284c7"
-            }
-        },
-        "indigo": {
-            "50": {
-                "value": "#eef2ff"
-            },
-            "500": {
-                "value": "#6366f1"
-            },
-            "600": {
-                "value": "#4f46e5"
-            }
-        },
-        "rose": {
-            "50": {
-                "value": "#fff1f2"
-            },
-            "500": {
-                "value": "#f43f5e"
-            }
-        },
-        "slate": {
-            "50": {
-                "value": "#f8fafc"
-            },
-            "100": {
-                "value": "#f1f5f9"
-            },
-            "200": {
-                "value": "#e2e8f0"
-            },
-            "300": {
-                "value": "#cbd5e1"
-            },
-            "400": {
-                "value": "#94a3b8"
-            },
-            "500": {
-                "value": "#64748b"
-            },
-            "600": {
-                "value": "#475569"
-            },
-            "700": {
-                "value": "#334155"
-            },
-            "800": {
-                "value": "#1e293b"
-            },
-            "900": {
-                "value": "#0f172a"
-            },
-            "950": {
-                "value": "#020617"
-            }
-        },
-        "emerald": {
-            "50": {
-                "value": "#ecfdf5"
-            },
-            "400": {
-                "value": "#34d399"
-            },
-            "500": {
-                "value": "#10b981"
-            },
-            "600": {
-                "value": "#059669"
-            }
-        },
-        "amber": {
-            "50": {
-                "value": "#fffbeb"
-            },
-            "400": {
-                "value": "#fbbf24"
-            },
-            "500": {
-                "value": "#f59e0b"
-            }
+        "black": {
+            "5": { "value": "#0000000D" },
+            "10": { "value": "#0000001A" },
+            "20": { "value": "#00000033" },
+            "40": { "value": "#00000066" },
+            "60": { "value": "#00000099" },
+            "80": { "value": "#000000CC" },
+            "100": { "value": "#000000FF" }
         },
         "white": {
-            "value": "#ffffff"
+            "5": { "value": "#FFFFFF0D" },
+            "10": { "value": "#FFFFFF1A" },
+            "20": { "value": "#FFFFFF33" },
+            "40": { "value": "#FFFFFF66" },
+            "60": { "value": "#FFFFFF99" },
+            "80": { "value": "#FFFFFFCC" },
+            "100": { "value": "#FFFFFFFF" }
         },
-        "black": {
-            "value": "#000000"
+        "orange": {
+            "start": { "value": "#FF8A5C" },
+            "end": { "value": "#FF5E3A" },
+            "lightStart": { "value": "#FFB088" },
+            "lightEnd": { "value": "#FF8A5C" }
+        },
+        "semantic": {
+            "error": { "value": "#FF3B30" },
+            "warning": { "value": "#FF9F0A" },
+            "success": { "value": "#34C759" },
+            "info": { "value": "#007AFF" }
         }
     },
     "fontFamily": {
-        "sans": {
-            "value": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
-        }
+        "primary": { "value": "'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" },
+        "body": { "value": "'DM Sans', 'Inter', 'SF Pro Text', sans-serif" },
+        "serif": { "value": "'DM Serif Text', Georgia, serif" },
+        "mono": { "value": "'Geist Mono', 'SF Mono', Consolas, monospace" }
     },
     "spacing": {
-        "0": {
-            "value": "0px"
-        },
-        "1": {
-            "value": "4px"
-        },
-        "2": {
-            "value": "8px"
-        },
-        "3": {
-            "value": "12px"
-        },
-        "4": {
-            "value": "16px"
-        },
-        "6": {
-            "value": "24px"
-        },
-        "8": {
-            "value": "32px"
-        },
-        "12": {
-            "value": "48px"
-        },
-        "16": {
-            "value": "64px"
-        }
+        "2": { "value": "2px" },
+        "4": { "value": "4px" },
+        "6": { "value": "6px" },
+        "8": { "value": "8px" },
+        "12": { "value": "12px" },
+        "16": { "value": "16px" },
+        "20": { "value": "20px" },
+        "24": { "value": "24px" },
+        "32": { "value": "32px" },
+        "40": { "value": "40px" },
+        "48": { "value": "48px" }
     },
     "borderRadius": {
-        "sm": {
-            "value": "4px"
-        },
-        "md": {
-            "value": "8px"
-        },
-        "lg": {
-            "value": "12px"
-        },
-        "full": {
-            "value": "9999px"
-        }
+        "none": { "value": "0px" },
+        "xs": { "value": "4px" },
+        "sm": { "value": "8px" },
+        "md": { "value": "12px" },
+        "lg": { "value": "16px" },
+        "xl": { "value": "20px" },
+        "2xl": { "value": "24px" },
+        "pill": { "value": "100px" }
     },
     "shadow": {
-        "sm": {
-            "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)"
-        },
-        "md": {
-            "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06)"
-        },
-        "lg": {
-            "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05)"
-        }
+        "sm": { "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)" },
+        "md": { "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06)" },
+        "lg": { "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05)" }
     }
 }
