@@ -1,0 +1,60 @@
+{
+  "black": {
+    "5": { "value": "#0000000D", "type": "color" },
+    "10": { "value": "#0000001A", "type": "color" },
+    "20": { "value": "#00000033", "type": "color" },
+    "40": { "value": "#00000066", "type": "color" },
+    "60": { "value": "#00000099", "type": "color" },
+    "80": { "value": "#000000CC", "type": "color" },
+    "100": { "value": "#000000", "type": "color" }
+  },
+  "white": {
+    "5": { "value": "#FFFFFF0D", "type": "color" },
+    "10": { "value": "#FFFFFF1A", "type": "color" },
+    "20": { "value": "#FFFFFF33", "type": "color" },
+    "40": { "value": "#FFFFFF66", "type": "color" },
+    "60": { "value": "#FFFFFF99", "type": "color" },
+    "80": { "value": "#FFFFFFCC", "type": "color" },
+    "100": { "value": "#FFFFFF", "type": "color" }
+  },
+  "orange": {
+    "start": { "value": "#FF8A5C", "type": "color" },
+    "end": { "value": "#FF5E3A", "type": "color" },
+    "light-start": { "value": "#FFB088", "type": "color" },
+    "light-end": { "value": "#FF8A5C", "type": "color" }
+  },
+  "status": {
+    "error": { "value": "#FF3B30", "type": "color" },
+    "warning": { "value": "#FF9F0A", "type": "color" },
+    "success": { "value": "#34C759", "type": "color" },
+    "info": { "value": "#007AFF", "type": "color" }
+  },
+  "font": {
+    "primary": { "value": "DM Sans", "type": "fontFamilies" },
+    "serif": { "value": "DM Serif Text", "type": "fontFamilies" },
+    "mono": { "value": "Geist Mono", "type": "fontFamilies" }
+  },
+  "spacing": {
+    "2": { "value": "2", "type": "spacing" },
+    "4": { "value": "4", "type": "spacing" },
+    "6": { "value": "6", "type": "spacing" },
+    "8": { "value": "8", "type": "spacing" },
+    "12": { "value": "12", "type": "spacing" },
+    "16": { "value": "16", "type": "spacing" },
+    "20": { "value": "20", "type": "spacing" },
+    "24": { "value": "24", "type": "spacing" },
+    "32": { "value": "32", "type": "spacing" },
+    "40": { "value": "40", "type": "spacing" },
+    "48": { "value": "48", "type": "spacing" }
+  },
+  "radius": {
+    "none": { "value": "0", "type": "borderRadius" },
+    "xs": { "value": "4", "type": "borderRadius" },
+    "sm": { "value": "8", "type": "borderRadius" },
+    "md": { "value": "12", "type": "borderRadius" },
+    "lg": { "value": "16", "type": "borderRadius" },
+    "xl": { "value": "20", "type": "borderRadius" },
+    "2xl": { "value": "24", "type": "borderRadius" },
+    "pill": { "value": "100", "type": "borderRadius" }
+  }
+}

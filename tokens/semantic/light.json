@@ -1,0 +1,35 @@
+{
+  "bg": {
+    "primary": { "value": "{white.100}", "type": "color" },
+    "secondary": { "value": "#F7F7F7", "type": "color" },
+    "tertiary": { "value": "#EFEFEF", "type": "color" },
+    "elevated": { "value": "{white.100}", "type": "color" },
+    "card": { "value": "{white.100}", "type": "color" },
+    "card-secondary": { "value": "#F7F7F7", "type": "color" },
+    "input": { "value": "{white.100}", "type": "color" },
+    "hover": { "value": "{black.5}", "type": "color" },
+    "pressed": { "value": "{black.10}", "type": "color" }
+  },
+  "text": {
+    "primary": { "value": "{black.100}", "type": "color" },
+    "secondary": { "value": "{black.80}", "type": "color" },
+    "tertiary": { "value": "{black.60}", "type": "color" },
+    "quaternary": { "value": "{black.40}", "type": "color" },
+    "on-color": { "value": "{white.100}", "type": "color" },
+    "on-color-secondary": { "value": "{white.80}", "type": "color" },
+    "placeholder": { "value": "{black.40}", "type": "color" }
+  },
+  "border": {
+    "light": { "value": "{black.10}", "type": "color" },
+    "default": { "value": "{black.20}", "type": "color" },
+    "strong": { "value": "{black.40}", "type": "color" },
+    "input": { "value": "{black.20}", "type": "color" },
+    "input-focus": { "value": "{black.100}", "type": "color" }
+  },
+  "icon": {
+    "primary": { "value": "{black.100}", "type": "color" },
+    "secondary": { "value": "{black.60}", "type": "color" },
+    "tertiary": { "value": "{black.40}", "type": "color" },
+    "on-color": { "value": "{white.100}", "type": "color" }
+  }
+}
